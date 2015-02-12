@@ -1,2 +1,2 @@
-# resume
+# readme
 My Resume
