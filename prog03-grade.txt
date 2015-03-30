@@ -1,0 +1,28 @@
+LAB
+
+5/5	Main.time(fib, n)
+
+10/10	Main.averageTime(fib, n, ncalls)
+
+10/10	Main.accurateTime(fib, n),
+
+10/10	LinearFib
+
+5/5	ConstantFib
+
+
+HOMEWORK
+
+0/10	Handles non-integer inputs correctly.
+
+10/20	Does prediction correctly (and reasonably accurate).
+
+10/10	Displays value of fib and and time.
+
+0/20	Gives the user the option to avoid a computation lasting more
+	than one hour.
+
+results inaccurate 
+doesn't warn for calculations over an hour
+doesn't check for non-integer inputs
+grade: 70/100
