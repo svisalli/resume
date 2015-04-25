@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@media (max-width: 320px){
+
+#container{
+    margin:0 auto 0 auto;
+    width: 300px;
+    padding:0px ;
+
+  }
+body{
+  background:url(../photos/symphony.png);
+  margin-top:180px;
+}
+
+header{
+    text-align:center;
+    color:black;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+  }
+
+h1{
+  margin-bottom:0px;
+}
+
+a{
+  text-align:center;
+  color: black;
+  display:block;
+  margin:0 auto 0 auto;
+  font-family: 'Open Sans Condensed', sans-serif, 300;
+  font-size: 18px;
+}
+}

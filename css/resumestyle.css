@@ -12,7 +12,7 @@
 }
 
 body{
-  background:url(http://www.hdwallsource.com/img/2014/5/light-blue-wallpaper-7837-8130-hd-wallpapers.jpg);
+  background:url(backgroud.jpg);
   font-family: "Open Sans Condensed",sans-serif;
   font-size: 18px;
   color: black;
@@ -25,7 +25,6 @@ header{
 
 nav{
   text-align:center;
-
 
 }
 
@@ -70,20 +69,20 @@ h2{
 
 }
 
-h3{
+h5{
   font-size:18px;
   line-height:20px;
   margin:3px;
   margin-left:0px;
 }
 
-h3 a{
+h5 a{
   font-size:18px;
   line-height:20px;
   margin:3px;
 }
 
-h4{
+h5{
   line-height:20px;
   margin:2px;
 }

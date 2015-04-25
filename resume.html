@@ -3,54 +3,66 @@
 
     <head>
       <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width; initial-scale=1;" />
       <title>Sarah Visalli: Resume</title>
-      <link href="resumestyle.css" media="screen" rel="stylesheet"/>
+      <link href="css/screen.css" media="screen" rel="stylesheet"/>
+      <link href="css/mobile.css" media="screen" rel="stylesheet"/>
       <link rel="stylesheet" media="print" href="resumeprint.css" />
     </head>
 
 
     <body>
 
-      <div id= "container">
-      <section>
-      <header>
-        <h1> Sarah Visalli</h1>
 
-        <address>
+      <div id= "container">
+        <section id="top">
+          <header>
+            <h1> Sarah Visalli</h1>
+
+          <!--<address>
           5894 SW 42nd Street<br>
           Miami, Florida<br>
           33155<br>
-        </address>
-      </header>
+          </address> -->
 
-      <nav>
-          <ul>
+          </header>
+
+          <nav>
+            <!--<ul>
             <li><a href="#education">Education</a></li>
             <li><a href="#workexperience">Work Experience</a></li>
             <li><a href="#leadership">Activities and Leadership Positions</a></li>
             <li><a href="#volunteer">Volunteer Experience</a></li>
             <li><a href="#technical">Technical Skills</a></li>
-          </ul>
-      </nav>
-</section>
+            </ul>-->
 
-    <main>
+            <ul>
+              <li><a href="aboutme.html">About Me</a></li>
+              <li><a href="resume.html" class="active">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="photos.html">Photos</a></li>
+            </ul>
+          </nav>
+        </section>
+
+
+    <main id= "resume">
       <section id="education">
         <h2>Education</h2>
 
         <article>
-          <h3>Undergraduate: <a href="http://www.miami.edu/">University of Miami</a></h3>
+          <h4><span>Undergraduate:</span> <a href="http://www.miami.edu/">University of Miami</a></h4>
             <p>Graduation: May 2016</p>
 
             <p>Degrees</p>
               <ul>
-                <li>Major:<a href="http://www.bus.miami.edu/index.html">BSBA Entrepreneurship</a></li>
-                <li>Minor:<a href="http://www.cs.miami.edu">Computer Science</a></li>
+                <li>Major: <a href="http://www.bus.miami.edu/index.html">BSBA Entrepreneurship</a></li>
+                <li>Minor: <a href="http://www.cs.miami.edu">Computer Science</a></li>
               </ul>
         </article>
 
           <article>
-            <h3>High School: <a href="http://wildwoodcatholic.org/">Wildwood Catholic High School</a></h3>
+            <h4><span>High School:</span> <a href="http://wildwoodcatholic.org/">Wildwood Catholic High School</a></h4>
               <p>Graduation: May 2012</p>
           </article>
 
@@ -60,15 +72,15 @@
 
 
       <section id="workexperience">
-        <h2>Work Experience</h2>
+        <h3>Work Experience</h2>
 
             <article>
-            <h3><a href="http://www.bandanasmexicangrille.com">Bandanas Mexican Grille</a></h3>
+            <h4><a href="http://www.bandanasmexicangrille.com">Bandanas Mexican Grille</a></h4>
               <p>Positions:server, preparatory cook, day and evening general manager</p>
             </article>
 
             <article>
-            <h3><a href="http://globalpursuitsh.com">Global Pursuit Clothing Store</a></h3>
+            <h4><a href="http://globalpursuitsh.com">Global Pursuit Clothing Store</a></h4>
               <p>Positions: retail salesperson </p>
             </article>
     </section>
@@ -78,7 +90,7 @@
       <h2>Extra Curricular Activities</h2>
 
         <article>
-        <h3>Active Member</h3>
+        <h4>Active Member</h4>
           <ul>
             <li>Delta Gamma Sorority: Vice President Programming</li>
             <li>University of Miami Scuba Club</li>
@@ -87,7 +99,7 @@
         </article>
 
         <article>
-        <h3>Past Memberships</h3>
+        <h4>Past Memberships</h4>
           <ul>
             <li>Wildwood Catholic High School Student Body President</li>
             <li>Wildwood Catholic High School Secretary</li>
@@ -118,6 +130,9 @@
           </ul>
         </article>
     </section>
+
+
+
 
   </main>
 </div>
