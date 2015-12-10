@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="style.css" media="screen" rel="stylesheet"/>
+  <title>Bandanas Mexican Grille</title>
+</head>
+
+
+<body>
+  <div id= "container">
+    <section id= topNav>
+
+      <nav>
+        <ul>
+          <li><a href="home.html" class= "active">ABOUT US</a></li>
+          <li><a href="Menu.html">MENU</a></li>
+          <li id= "logo"><img id="text-logo-header" src="images/text-logo.png" alt="Bandanas"/></h1></li>
+          <li><a href="Contact.html">CONTACT US</a></li>
+          <li><a href="form.html">CALL AHEAD</a></li>
+        </ul>
+      </nav>
+    </section>
+
+
+    <main>
+      <section id="leftBlockHome">
+        <h2>Thank you for calling ahead!</h2>
+        <p>Please remember this is not a reservation and does not garuentee you a table as soon as you walk in. Rather, you have simply put your name on our waiting list and when you arrive, 30 minuets will be cut off the current wait time.
+        </p>
+      </section>
+
+      <section id= "rightBlockHome">
+        <article id="timemessage">
+          <p> Please arrive at Bandanas and check in with the hostess by
+            <script>
+            var date= new Date();
+            var milh= date.getHours();
+            var h= milh - 12;
+            var m= date.getMinutes();
+            var at= m + 30;
+            if(at % 60 != at || at % 60 == 0 ){
+              h= h+1;
+              m= at % 60;
+            }
+            else{
+              m= m + 30;
+            }
+            document.write(h + ":" + m + " PM")
+            </script>
+          </p>
+        </article>
+
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>

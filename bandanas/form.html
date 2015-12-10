@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" media="screen" rel="stylesheet"/>
+    <title>Bandanas Call Ahead Seating</title>
+  </head>
+
+  <body>
+
+    <div id= "container">
+      <section id= topNav>
+
+        <nav>
+          <ul>
+            <li><a href="home.html">ABOUT US</a></li>
+            <li><a href="Menu.html">MENU</a></li>
+            <li id= "logo"><img id="text-logo-header" src="images/text-logo.png" alt="Bandanas"/></h1></li>
+            <li><a href="Contact.html">CONTACT US</a></li>
+            <li><a href="form.html" class= "active">CALL AHEAD</a></li>
+          </ul>
+        </nav>
+      </section>
+
+<section id="rightBlockForm">
+    <h1>Call Ahead Seating</h1>
+    <p>We do not accept reservations, but you are welcome to use our "call ahead seating" service. Please call or fill out the following form 30 minutes before you'd like to dine with us, and we'll place your name on our list. While we love a fiesta, our restaraunt is rather small so we ask that parties of over thirteen please call and ask to speak to managment before 4pm. </p>
+  </section>
+
+    <section id="leftBlockForm">
+    <form>
+      <h1> Call Ahead </h1>
+        <p> Fill out 30 minutes before arrival </p>
+      <label>First Name</lable>
+      <input type= "text" id="firstName"/>
+
+      <label>Last Name</lable>
+      <input type= "text" id="lastName"/>
+      <script>
+      var firstName = $("#firstName").val();
+      document.write(fristName);</script>
+
+      <label>Total Number of Guests in Party</lable>
+      <input type= "number" id="partySize" min="1" max="13"/>
+
+      <label>Do you have any infants that need high chairs, if so how many?</lable>
+      <input type= "number" id="highChairs" min="0" max="12"/>
+
+      <label>Phone Number</lable>
+      <input type= "text" id="phone"/>
+
+      <input type= "submit" id="submit"/>
+    </form>
+
+</section>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/google-form.js"></script>
+
+
+  </body>
+
+</html>
